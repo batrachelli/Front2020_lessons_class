@@ -7,9 +7,10 @@ html, body {
     font-family: Arial;
     text-align: center;
 }
+
 div {
     width: 60%;
-    margin: 0px auto;
+    margin: 0 auto;
     padding: 10px;
     background: yellow;
     border: 1px solid red;
