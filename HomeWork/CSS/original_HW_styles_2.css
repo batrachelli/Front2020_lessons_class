@@ -7,34 +7,31 @@ html, body {
     font-family: Arial;
     text-align: center;
 }
+
 div {
     width: 60%;
-    margin: 0px auto;
-    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
     background: yellow;
     border: 1px solid red;
+    padding: 10px;
 }
 
-div > h1 {
+div h1 {
     text-align: right;
-}
-
-h1 > span {
-    color: green;
-}
-
-p {
-    color: white;
-    background: blue;
-    border: 1px solid darkblue;
 }
 
 p > span {
     text-align: left;
     display: block;
-    font-size: 20px;
+    font-size: 1.5em;
 }
 
-i > b, span > span{
+p {
+    background: blue;
+    color: white;
+}
+
+span span, i b {
     color: red;
 }
