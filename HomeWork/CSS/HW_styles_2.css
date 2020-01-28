@@ -18,7 +18,7 @@ div.main_yellow {
 div.main_blue {
     border: 1px solid darkblue;
     box-sizing: border-box;
-    width: 80%;
+    width: 100%;
     margin: 10px auto;
     padding: 10px;
     background-color: blue;
@@ -37,9 +37,8 @@ p.p_center {
 
 .red {
     color: red;
-    font-size: 16px;
 }
 
 .big {
-    font-size: 16px;
+    font-size: 20px;
 }
