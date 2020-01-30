@@ -60,10 +60,11 @@ a {
 }
 
 
-a:visited{
-    color:grey;
-}
+/*a:visited{*/
+/*    color:grey;*/
+/*}*/
 
 a:hover {
-    color: red;
+    /*color: red;*/
+    font-weight: bold;
 }
