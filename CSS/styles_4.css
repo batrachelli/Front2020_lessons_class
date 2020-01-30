@@ -85,6 +85,9 @@ div > div {
     float: left;
 }
 
+div > table {
+    width: 80%;
+}
 .first {
     background: white;
 }
