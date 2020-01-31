@@ -28,7 +28,7 @@ div>div:nth-child(1) {
     width: 20%;
     padding: 10px;
     /*min-width: 20%;*/
-    display: block;
+    /*display: block;*/
     float: left;
 }
 
