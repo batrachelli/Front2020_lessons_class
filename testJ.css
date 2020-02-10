@@ -1,0 +1,145 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    height: 100%;
+    min-width: 700px;
+    font-size: 14px;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+p {
+    padding: 0 15px;
+    margin: 0;
+}
+
+.main {
+    width: 80%;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.item {
+    /*padding: 15px;*/
+    border: 1px solid lightgrey;
+    float: left;
+    width: calc(100% / 5);
+    position: relative;
+    box-sizing: border-box;
+}
+.title_item {
+    margin-bottom: 15px;
+    min-font-size: 8px;
+    font-size: 2vw;
+}
+
+.buy {
+    position: relative;
+}
+
+.cost {
+    font-size: 2em;
+}
+
+.stock {
+    font-size: 0.9em;
+    color: seagreen;
+    padding-bottom: 30px;
+}
+img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.container_img {
+    height: 180px;
+    line-height: 180px;
+    text-align: center;
+    padding: 5px 25px;
+}
+
+.heart, .basket, .scales {
+    position: absolute;
+    width: 20px;
+    right: 5px;
+}
+
+.heart {
+    top: 5px;
+}
+
+.scales {
+    top: 40px;
+}
+
+.basket {
+    right: 10px;
+    bottom: 6px;
+}
+
+/*html, body {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    min-height: 100%;*/
+/*    height: 100%;*/
+/*    font-size: 14px;*/
+/*    font-family: Arial;*/
+/*    background: aliceblue;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*.main {*/
+/*    width: 90%;*/
+/*    border: 1px solid gray;*/
+/*    margin: auto;*/
+/*}*/
+
+/*.container {*/
+/*    width: calc(90% / 5);*/
+/*    border: 1px solid gray;*/
+/*    float: left;*/
+/*    padding-bottom: 20px;*/
+/*}*/
+
+/*.img {*/
+/*    !*width: 80px;*!*/
+/*    !*border: 1px solid red;*!*/
+/*    !*width: calc(100% - 2px);*!*/
+/*    width: 100%;*/
+/*    !*margin: 0 auto;*!*/
+/*    !*display: block;*!*/
+/*    padding-left: 0px;*/
+/*    vertical-align: middle;*/
+/*}*/
+
+/*.contimg {*/
+/*    !*vertical-align: middle;*!*/
+/*    height: 250px;*/
+/*    line-height: 250px;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.stock {*/
+/*    font-size: 0.8em;*/
+/*    color: darkgreen;*/
+/*}*/
+
+/*.nostock {*/
+/*    font-size: 0.8em;*/
+/*    color: red;*/
+/*}*/
+
+/*.cost {*/
+/*    font-size: 1.5em;*/
+/*}*/
+
+/*.nomargin {*/
+/*    margin-bottom: 0px;*/
+/*    margin-top: 5px;*/
+/*}*/
+
+/*.padding {*/
+/*    padding-left: 10px;*/
+/*    font-size: 1vw;*/
+/*}*/
