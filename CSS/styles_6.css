@@ -134,11 +134,11 @@ input::placeholder {
 
 
 
-@media screen and (max-width: 800px){
-    .container {
-        width: 90%;
-    }
-    html, body {
-        font-size: 18px;
-    }
-}
+/*@media screen and (max-width: 800px){*/
+/*    .container {*/
+/*        width: 90%;*/
+/*    }*/
+/*    html, body {*/
+/*        font-size: 18px;*/
+/*    }*/
+/*}*/
